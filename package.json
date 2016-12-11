@@ -1,0 +1,20 @@
+{
+  "name": "trifid-handler-fs",
+  "description": "File system handler for Trifid",
+  "version": "0.9.0",
+  "license": "MIT",
+  "homepage": "https://github.com/zazukoians/trifid-handler-fs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zazukoians/trifid-handler-fs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zazukoians/trifid-handler-fs/issues"
+  },
+  "dependencies": {
+    "ldp": "^0.1.5",
+    "rdf-ext": "^0.3.0",
+    "rdf-store-fs": "^0.3.1"
+  },
+  "devDependencies": {}
+}
