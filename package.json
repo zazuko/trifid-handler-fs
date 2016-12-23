@@ -11,10 +11,16 @@
   "bugs": {
     "url": "https://github.com/zazukoians/trifid-handler-fs/issues"
   },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint"
+  },
   "dependencies": {
     "ldp": "^0.1.5",
     "rdf-ext": "^0.3.0",
     "rdf-store-fs": "^0.3.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
 }
