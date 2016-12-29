@@ -3,13 +3,13 @@
   "description": "File system handler for Trifid",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/zazuko/trifid-handler-fs",
+  "homepage": "https://github.com/zazukoians/trifid-handler-fs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zazuko/trifid-handler-fs.git"
+    "url": "https://github.com/zazukoians/trifid-handler-fs.git"
   },
   "bugs": {
-    "url": "https://github.com/zazuko/trifid-handler-fs/issues"
+    "url": "https://github.com/zazukoians/trifid-handler-fs/issues"
   },
   "scripts": {
     "lint": "standard",
