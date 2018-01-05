@@ -15,7 +15,14 @@ module.exports = function (options) {
     graphStore: this.store
   })
 
+  // legacy interface
   this.get = function (req, res, next, iri) {
-    this.ldp.get(req, res, next, iri)
+    req.iri = iri
+
+    this.handle(req, res, next)
+  }
+
+  this.handle = function (req, res, next) {
+    this.ldp.get(req, res, next, req.iri)
   }
 }
